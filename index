@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="UTF-8" >
+        <title>Document</title>
+    </head>
+    <body>
+        <script src="https://unpkg.com/vue"></script>
+        <div id="app">
+            <h1>{{message}}</h1>  
+        </div>
+        <script>
+        new Vue({
+         el:"#app",   
+         data:{
+            message:"hello world",
+        }  
+        })    
+        </script>
+  </body>
+</html>
